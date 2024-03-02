@@ -1,7 +1,6 @@
 package lk.ijse.gdse66;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-import org.springframework.web.util.WebAppRootListener;
 
 /**
  * @author : Kavithma Thushal
@@ -12,7 +11,7 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[]{WebAppRootListener.class};
+        return new Class[]{WebRootConfig.class};
     }
 
     @Override
