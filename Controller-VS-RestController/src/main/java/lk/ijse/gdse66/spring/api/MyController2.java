@@ -19,6 +19,6 @@ public class MyController2 {
 
     @GetMapping
     public String getMethod() {
-        return "MyController2";
+        return "something";
     }
 }
