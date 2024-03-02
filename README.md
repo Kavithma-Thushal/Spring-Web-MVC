@@ -15,10 +15,12 @@ Happy coding.....! 😉
 ## Content
 
 ✅Hello Spring Web MVC</br>
+✅Controller VS RestController</br>
 
 ### Annotations
 
-* @Configuration
+* @Controller
+* @RestController
 
 <div align="center">
 

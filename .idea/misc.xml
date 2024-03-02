@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/Hello-Spring-Web-MVC/pom.xml" />
         <option value="$PROJECT_DIR$/1 - Hello-Spring-Web-MVC/pom.xml" />
+        <option value="$PROJECT_DIR$/Controller-VS-RestController/pom.xml" />
       </list>
     </option>
   </component>
