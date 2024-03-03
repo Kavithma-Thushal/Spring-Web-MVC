@@ -19,8 +19,15 @@ Happy coding.....! 😉
 
 ### Annotations
 
+* @EnableWebMvc
 * @Controller
 * @RestController
+* @RequestMapping
+* @GetMapping
+* @PostMapping
+* @PutMapping
+* @PatchMapping
+* @DeleteMapping
 
 <div align="center">
 
