@@ -28,7 +28,6 @@ Happy coding.....! 😉
 * @PutMapping
 * @PatchMapping
 * @DeleteMapping
-* @DeleteMapping
 
 <div align="center">
 
