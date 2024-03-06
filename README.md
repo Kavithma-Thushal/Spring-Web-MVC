@@ -19,9 +19,9 @@ Happy coding.....! 😉
 
 ### Annotations
 
-* @EnableWebMvc
 * @Controller
 * @RestController
+* @EnableWebMvc
 * @RequestMapping
 * @GetMapping
 * @PostMapping
