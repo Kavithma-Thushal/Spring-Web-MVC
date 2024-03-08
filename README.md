@@ -17,6 +17,8 @@ Happy coding.....! 😉
 ✅Hello Spring Web MVC</br>
 ✅Controller VS RestController</br>
 ✅Mapping Specifications</br>
+✅Send Data through Path Variables</br>
+✅Send Data through Request Param</br>
 
 ### Annotations
 

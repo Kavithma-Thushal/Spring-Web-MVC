@@ -14,12 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/customers")
 public class CustomerController {
 
-    @GetMapping("/allCustomers")
-    public String getAllCustomers() {
-        System.out.println("getAllCustomers");
-        return "getAllCustomers";
-    }
-
     @GetMapping("/abc/{citty}")
     public String getCustomerByCity(@PathVariable("citty") String city) {
         System.out.println(String.format("getCustomerByCity : %s", city));
