@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Hello-Spring-Web-MVC" />
         <module name="Controller-VS-RestController" />
+        <module name="Mapping-Specifications" />
       </profile>
     </annotationProcessing>
   </component>
