@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/customers")
 public class CustomerController {
 
-    @GetMapping("/search")
+    @GetMapping("/test")
     public String getName() {
         System.out.println("Thushal");
         return "Thushal";
