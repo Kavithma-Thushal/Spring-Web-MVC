@@ -31,6 +31,7 @@ Happy coding.....! 😉
 * @DeleteMapping
 * ================
 * @PathVariable
+* @RequestParam
 
 <div align="center">
 

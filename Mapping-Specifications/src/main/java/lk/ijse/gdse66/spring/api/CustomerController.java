@@ -33,7 +33,7 @@ public class CustomerController {
     }
 
     @GetMapping("/{id:C\\d{3}}")
-    public String getCustomerById(@PathVariable("id") String id) {
+    public String getCustomerById(@PathVariable(value = "id") String id) {
         System.out.println(String.format("getCustomerById : %s", id));
         return String.format("getCustomerById : %s", id);
     }
