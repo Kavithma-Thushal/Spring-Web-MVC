@@ -15,7 +15,7 @@ public class CustomerController {
 
     @GetMapping("/search")
     public String getName() {
-        System.out.println("Customer Name - Thushal");
-        return "Customer Name - Thushal";
+        System.out.println("Thushal");
+        return "Thushal";
     }
 }
