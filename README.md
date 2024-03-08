@@ -29,6 +29,8 @@ Happy coding.....! 😉
 * @PutMapping
 * @PatchMapping
 * @DeleteMapping
+* ================
+* @PathVariable
 
 <div align="center">
 
