@@ -17,8 +17,8 @@ Happy coding.....! 😉
 ✅Hello Spring Web MVC</br>
 ✅Controller VS RestController</br>
 ✅Mapping Specifications</br>
-✅Send Data through Path Variables</br>
-✅Send Data through Request Param</br>
+✅Send Data through Query Parameters</br>
+✅Send Data through Path Segments</br>
 
 ### Annotations
 
@@ -32,8 +32,9 @@ Happy coding.....! 😉
 * @PatchMapping
 * @DeleteMapping
 * ================
-* @PathVariable
 * @RequestParam
+* @PathVariable
+* @ModelAttribute
 
 <div align="center">
 
