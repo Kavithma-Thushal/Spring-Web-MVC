@@ -19,6 +19,7 @@ Happy coding.....! 😉
 ✅Mapping Specifications</br>
 ✅Send Data through Query Parameters</br>
 ✅Send Data through Path Segments</br>
+✅Send Data through Json (Jackson)</br>
 
 ### Annotations
 
