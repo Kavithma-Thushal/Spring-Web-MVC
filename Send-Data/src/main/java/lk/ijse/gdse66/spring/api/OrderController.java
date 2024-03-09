@@ -30,7 +30,7 @@ public class OrderController {
         System.out.println(new OrderDTO("C001", "Thushal", 23));
     }*/
 
-    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping
     public ArrayList<OrderDTO> getAllOrders() {
         ArrayList<OrderDTO> supplierList = new ArrayList<>();
         supplierList.add(new OrderDTO("C001", "Kamal", 12));
