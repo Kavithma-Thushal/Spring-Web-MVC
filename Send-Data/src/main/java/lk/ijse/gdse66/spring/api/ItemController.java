@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/items")
 public class ItemController {
 
-    // Consume --> Accept
-    // Produce --> Return
+    // Consume --> Accept --> Request
+    // Produce --> Return --> Response
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
     public String saveItemJson() {

@@ -36,6 +36,7 @@ Happy coding.....! 😉
 * @RequestParam
 * @PathVariable
 * @ModelAttribute
+* @RequestBody
 
 <div align="center">
 
