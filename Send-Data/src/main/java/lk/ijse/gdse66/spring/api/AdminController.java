@@ -17,4 +17,9 @@ public class AdminController {
     public void saveAdmin(@ModelAttribute AdminDTO adminDTO) {
         System.out.println(adminDTO.toString());
     }
+
+    @GetMapping
+    public String getOrders(@RequestHeader(value = "token", required = false) String token) {
+        return String.format("getOrders : %s", token);
+    }
 }
