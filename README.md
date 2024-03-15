@@ -36,6 +36,8 @@ Happy coding.....! 😉
 * @PathVariable
 * @ModelAttribute
 * @RequestBody
+* @RequestHeader
+* @CrossOrigin
 
 <div align="center">
 
