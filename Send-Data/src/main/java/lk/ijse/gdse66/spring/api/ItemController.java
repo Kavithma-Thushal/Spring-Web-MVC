@@ -18,6 +18,20 @@ public class ItemController {
     // Consume --> Accept --> Request
     // Produce --> Return --> Response
 
+    /**
+     * -------------------- consumes --------------------
+     * Specify MIME type that a handler method can consume
+     * Spring check content-type header of incoming requests (content type of request body)
+     * Spring route the request to the appropriate handler method
+     **/
+
+    /**
+     * -------------------- produces --------------------
+     * Specify MIME type that a handler method can generate as the response (content type of response body)
+     * Depending on the Accept header sent in request header
+     * Spring route the request to the appropriate handler method
+     **/
+
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
     public String saveItemJson() {
         return "saveItemJson() - I accept only application/json";
@@ -46,5 +60,10 @@ public class ItemController {
     @GetMapping(produces = MediaType.APPLICATION_XML_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
     public String getItems() {
         return "getItems()";
+    }
+
+    @GetMapping(headers = {"content-type=application/json", "accept=application/json"})
+    public String GetItemASXml() {
+        return "GetItemsAsXml()";
     }
 }
